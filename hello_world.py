@@ -26,6 +26,6 @@ def gpt3_completion(prompt, engine='text-davinci-002', temp=0.7, top_p=1.0, toke
 
 
 if __name__ == '__main__':
-    prompt_ = 'Write a list of famous American actors:'
+    prompt_ = 'Explain Hypertunning'
     response_ = gpt3_completion(prompt_)
     print(response_)
